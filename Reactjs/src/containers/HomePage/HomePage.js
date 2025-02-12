@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import HomeHeader from "./HomeHeader";
 import Speacialty from "./Section/Specialty";
-import MedicalFacility from "./Section/OutStandingDoctor";
-import OutStandingDoctor from "./Section/HandBook";
+import MedicalFacility from "./Section/MedicalFacility";
+import OutStandingDoctor from "./Section/OutStandingDoctor";
 import HandBook from "./Section/HandBook";
 
 import "./HomePage.scss";
