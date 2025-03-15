@@ -8,6 +8,7 @@ let getHomePage = async (req, res) => {
     return res.render("homepage.ejs", {
       data: JSON.stringify(data),
     });
+    
   } catch (e) {
     console.log(e);
   }

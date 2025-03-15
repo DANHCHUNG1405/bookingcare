@@ -27,6 +27,7 @@ let handleGetAllUsers = async (req, res) => {
     });
   }
   let users = await userService.getAllUsers(id);
+  // console.log("Dữ liệu lấy từ DB:", users);
   return res.status(200).json({
     errCode: 0,
     errMessage: "OK",
