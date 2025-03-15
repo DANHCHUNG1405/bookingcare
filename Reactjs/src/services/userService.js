@@ -6,6 +6,12 @@ const handleLoginApi = (userEmail, userPassword) => {
 };
 
 const getAllUsers = (inputId) => {
+  // console.log(
+  //   "check ",
+  //   axios.get(`/api/get-all-users?id=${inputId}`, {
+  //     headers: authHeader(),
+  //   })
+  // );
   return axios.get(`/api/get-all-users?id=${inputId}`, {
     headers: authHeader(),
   });
@@ -27,6 +33,7 @@ const editUserService = (inputData) => {
 };
 
 const getAllCodeService = (inputData) => {
+  // console.log("Calling API: /api/allcode?type=", inputData);
   return axios.get(`/api/allcode?type=${inputData}`);
 };
 

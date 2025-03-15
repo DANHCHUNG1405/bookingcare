@@ -17,27 +17,27 @@ class MedicalFacility extends Component {
             <Slider {...this.props.settings}>
               <div className="section-customize">
                 <div className="bg-image section-medical-facility" />
-                <div>Hệ thống Y tế Thu Cúc 1</div>
+                <div>Bệnh viện Thu Cúc</div>
               </div>
               <div className="section-customize">
-                <div className="bg-image section-medical-facility" />
-                <div>Hệ thống Y tế Thu Cúc 2</div>
+                <div className="bg-image section-medical-facility2" />
+                <div>Bệnh viện Việt Đức</div>
               </div>
               <div className="section-customize">
-                <div className="bg-image section-medical-facility" />
-                <div>Hệ thống Y tế Thu Cúc 3</div>
+                <div className="bg-image section-medical-facility3" />
+                <div>Phòng khám đa khoa Medlatech Thanh Xuân</div>
               </div>
               <div className="section-customize">
-                <div className="bg-image section-medical-facility" />
-                <div>Hệ thống Y tế Thu Cúc 4</div>
+                <div className="bg-image section-medical-facility4" />
+                <div>Bệnh viện K</div>
               </div>
               <div className="section-customize">
-                <div className="bg-image section-medical-facility" />
-                <div>Hệ thống Y tế Thu Cúc 5</div>
+                <div className="bg-image section-medical-facility5" />
+                <div>Trung tâm xét nghiệm Diag</div>
               </div>
               <div className="section-customize">
-                <div className="bg-image section-medical-facility" />
-                <div>Hệ thống Y tế Thu Cúc 6</div>
+                <div className="bg-image section-medical-facility6" />
+                <div>Phòng khám bệnh viện đại học y dược 1</div>
               </div>
             </Slider>
           </div>
