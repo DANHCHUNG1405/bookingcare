@@ -22,14 +22,16 @@ export const adminMenu = [
       // {
       //     name: 'menu.admin.manage-admin', link: '/system/user-admin'
       // }
-      // { //quản lý kế hoạch của bác sĩ
-      //     name: 'menu.doctor.manage-schedule', link: '/doctor/manage-schedule'
-      //     // { name: 'menu.system.system-parameter.header', link: '/system/system-parameter' },
-      // },
       {
-        name: "menu.admin.manage-admin",
-        link: "/system/manage-admin",
+        //quản lý kế hoạch của bác sĩ
+        name: "menu.doctor.manage-schedule",
+        link: "/doctor/manage-schedule",
+        //     // { name: 'menu.system.system-parameter.header', link: '/system/system-parameter' },
       },
+      // {
+      //   name: "menu.admin.manage-admin",
+      //   link: "/system/manage-admin",
+      // },
       // { name: 'menu.system.system-parameter.header', link: '/system/system-parameter' },
     ],
   },
@@ -70,12 +72,12 @@ export const doctorMenu = [
     //quản lý kế hoạch của bác sĩ
     name: "menu.admin.manage-user",
     menus: [
-      {
-        // name: 'menu.doctor.manage-schedule', link: '/system/user-manage'
-        name: "menu.doctor.manage-schedule",
-        link: "/doctor/manage-schedule",
-        // { name: 'menu.system.system-parameter.header', link: '/system/system-parameter' },
-      },
+      // {
+      //   // name: 'menu.doctor.manage-schedule', link: '/system/user-manage'
+      //   name: "menu.doctor.manage-schedule",
+      //   link: "/doctor/manage-schedule",
+      //   // { name: 'menu.system.system-parameter.header', link: '/system/system-parameter' },
+      // },
       {
         name: "menu.doctor.manage-patient",
         link: "/doctor/manage-patient",

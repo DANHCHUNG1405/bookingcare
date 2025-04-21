@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import * as actions from "../../../store/actions";
 import { LANGUAGES } from "../../../utils";
+import { withRouter } from "react-router";
 class OutStandingDoctor extends Component {
   constructor(props) {
     super(props);
@@ -23,6 +24,11 @@ class OutStandingDoctor extends Component {
       });
     }
   }
+  handleViewDetailDoctor = (doctor) => {
+    if (this.props.history) {
+      this.props.history.push(`/detail-doctor/${doctor.id}`);
+    }
+  };
   render() {
     let { language } = this.props;
     let arrDoctors = this.state.arrDoctors;
@@ -96,4 +102,6 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(OutStandingDoctor);
+export default withRouter(
+  connect(mapStateToProps, mapDispatchToProps)(OutStandingDoctor)
+);
